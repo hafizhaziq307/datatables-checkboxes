@@ -27,3 +27,10 @@ It is created using those amazing technologies:
 - [JQuery](https://jquery.com/)
 - [Alpine](https://alpinejs.dev/)
 - And many others!
+
+---
+
+## License
+>You can check out the full license [here](https://github.com/hafizhaziq307/datatables-checkboxes/blob/main/LICENSE)
+
+This project is licensed under the terms of the **MIT** license.
