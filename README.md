@@ -18,6 +18,8 @@ step by step
 * Rename .env.example into .env
 * Run `php artisan key:generate`
 
+---
+
 ## Stack
 It is created using those amazing technologies:
 - [Laravel](https://laravel.com/)
