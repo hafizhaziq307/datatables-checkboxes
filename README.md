@@ -6,10 +6,17 @@ Table created using [datatables](https://www.datatables.net/) with checkAll chec
 ---
 
 ## Problem Statement
-1. Cannot used onchange event on input tag.
+1. Cannot used onchange event on checkbox directly.
 2. Checkbox is not working properly when using datatables pagination.
 
 ---
+
+## Installation
+step by step
+* Run `npm install`
+* Run `composer install`
+* Rename .env.example into .env
+* Run `php artisan key:generate`
 
 ## Stack
 It is created using those amazing technologies:
