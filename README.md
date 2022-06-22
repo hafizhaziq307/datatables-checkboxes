@@ -1,7 +1,7 @@
 # datatables-checkboxes
 Table created using [datatables](https://www.datatables.net/) with checkAll checkbox
 
-<img src="./res/output.gif" alt="datatables-checkboxes" width="50%" height="50%">
+<img src="./res/output.gif" alt="datatables-checkboxes" width="65%" height="65%">
 
 ---
 
