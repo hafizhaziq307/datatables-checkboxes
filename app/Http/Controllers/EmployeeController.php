@@ -11,15 +11,8 @@ class EmployeeController extends Controller
         $Employee = new Employee();
         $employees = $Employee->getEmployees();
 
-        $totalSalary = 0;
-
-        $employeesId = [];
-
-        foreach ($employees as $employee) {
-            $totalSalary += $employee->salary;
-
-            array_push($employeesId, $employee->id);
-        }
+        $employeesId = array_column($employees, 'id');
+        $totalSalary = array_sum(array_column($employees, 'salary'));
 
         return view('employees.index', compact('employees', 'totalSalary', 'employeesId'));
     }
